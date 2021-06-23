@@ -1,3 +1,9 @@
+# :)
+
+Just me kicking about with the re-com template
+
+# Everything below here is from the default read me
+
 # learn-re-com
 
 A [re-frame](https://github.com/day8/re-frame) application designed to ... well, that part is up to
