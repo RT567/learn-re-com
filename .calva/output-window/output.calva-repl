@@ -1,0 +1,262 @@
+; This is the Calva evaluation results output window.
+; TIPS: The keyboard shortcut `ctrl+alt+c o` shows and focuses this window
+;   when connected to a REPL session.
+; Please see https://calva.io/output/ for more info.
+; Happy coding! ♥️
+
+; Jacking in...
+; Starting Jack-in Terminal: npx.cmd shadow-cljs -d cider/cider-nrepl:0.26.0 watch :app :browser-test :karma-test
+; Hooking up nREPL sessions...
+; Connected session: clj
+; TIPS: 
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj꞉shadow.user꞉>  ; Use `alt+enter` to evaluate
+; Creating cljs repl session...
+; Connecting cljs repl: shadow-cljs...
+;   The Calva Connection Log might have more connection progress information.
+; Connected session: cljs, repl: :app
+; TIPS: You can choose which REPL to use (clj or cljs):
+;    *Calva: Toggle REPL connection*
+;    (There is a button in the status bar for this)
+; Jack-in done.
+cljs꞉cljs.user꞉>  ; Use `alt+enter` to evaluate
+; Evaluating file: views.cljs
+; No available JS runtime.
+; See https://shadow-cljs.github.io/docs/UsersGuide.html#repl-troubleshooting
+nil
+clj꞉cljs.user꞉> 
+nil
+; No available JS runtime.
+; See https://shadow-cljs.github.io/docs/UsersGuide.html#repl-troubleshooting
+cljs꞉cljs.user꞉> 
+nil
+; No available JS runtime.
+; See https://shadow-cljs.github.io/docs/UsersGuide.html#repl-troubleshooting
+cljs꞉cljs.user꞉> 
+nil
+; No available JS runtime.
+; See https://shadow-cljs.github.io/docs/UsersGuide.html#repl-troubleshooting
+cljs꞉cljs.user꞉> 
+2
+cljs꞉learn-re-com.views꞉> 
+2
+cljs꞉learn-re-com.views꞉> 
+[#object[re_com$datepicker$datepicker] :src {:file "repl-input.cljs", :line 2} :style {:font-size 10} :on-change #object[Function]]
+cljs꞉learn-re-com.views꞉> 
+nil
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:3:47
+ Use of undeclared Var learn-re-com.views/state-binary
+--------------------------------------------------------------------------------
+
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:4:53
+ Use of undeclared Var learn-re-com.views/state-binary
+--------------------------------------------------------------------------------
+
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:3:47
+ Use of undeclared Var learn-re-com.views/state-binary
+--------------------------------------------------------------------------------
+
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:4:53
+ Use of undeclared Var learn-re-com.views/state-binary
+--------------------------------------------------------------------------------
+
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:1:16
+ Use of undeclared Var learn-re-com.views/box#
+--------------------------------------------------------------------------------
+
+cljs꞉learn-re-com.views꞉> 
+#'learn-re-com.views/main-panel
+cljs꞉learn-re-com.views꞉> 
+#'learn-re-com.views/main-panel
+cljs꞉learn-re-com.views꞉> 
+#object[cljs.core.MultiFn]
+cljs꞉learn-re-com.views꞉> 
+nil
+cljs꞉learn-re-com.views꞉> 
+([:circle {:r 4.1, :cx 5, :cy 5, :fill "lightgrey", :on-click #object[Function]}] [:circle {:r 4.1, :cx 5, :cy 15, :fill "lightgrey", :on-click #object[Function]}] [:circle {:r 4.1, :cx 5, :cy 25, :fill "lightgrey", :on-click #object[Function]}] [:circle {:r 4.1, :cx 5, :cy 35, :fill "lightgrey", :on-click #object[Function]}] [:circle {:r 4.1, :cx 5, :cy 45, :fill "lightgrey", :on-click #object[Function]}] [:circle {:r 4.1, :cx 5, :cy 55, :fill "lightgrey", :on-click #object[Function]}] [:circle {:r 4.1, :cx 15, :cy 5, :fill "lightgrey", :on-click #object[Function]}] [:circle {:r 4.1, :cx 15, :cy 15, :fill "lightgrey", :on-click #object[Function]}] [:circle {:r 4.1, :cx 15, :cy 25, :fill "lightgrey", :on-click #object[Function]}] [:circle {:r 4.1, :cx 15, :cy 35, :fill "lightgrey", :on-click #object[Function]}] [:circle {:r 4.1, :cx 15, :cy 45, :fill "lightgrey", :on-click #object[Function]}] [:circle {:r 4.1, :cx 15, :cy 55, :fill "lightgrey", :on-click #object[Function]}] [:circle {:r 4.1, :cx 25, :cy 5, :fill "lightgrey", :on-click #object[Function]}] [:circle {:r 4.1, :cx 25, :cy 15, :fill "lightgrey", :on-click #object[Function]}] [:circle {:r 4.1, :cx 25, :cy 25, :fill "lightgrey", :on-click #object[Function]}] [:circle {:r 4.1, :cx 25, :cy 35, :fill "lightgrey", :on-click #object[Function]}] [:circle {:r 4.1, :cx 25, :cy 45, :fill "lightgrey", :on-click #object[Function]}] [:circle {:r 4.1, :cx 25, :cy 55, :fill "lightgrey", :on-click #object[Function]}] [:circle {:r 4.1, :cx 35, :cy 5, :fill "lightgrey", :on-click #object[Function]}] [:circle {:r 4.1, :cx 35, :cy 15, :fill "lightgrey", :on-click #object[Function]}] [:circle {:r 4.1, :cx 35, :cy 25, :fill "lightgrey", :on-click #object[Function]}] [:circle {:r 4.1, :cx 35, :cy 35, :fill "lightgrey", :on-click #object[Function]}] [:circle {:r 4.1, :cx 35, :cy 45, :fill "lightgrey", :on-click #object[Function]}] [:circle {:r 4.1, :cx 35, :cy 55, :fill "lightgrey", :on-click #object[Function]}] [:circle {:r 4.1, :cx 45, :cy 5, :fill "lightgrey", :on-click #object[Function]}] [:circle {:r 4.1, :cx 45, :cy 15, :fill "lightgrey", :on-click #object[Function]}] [:circle {:r 4.1, :cx 45, :cy 25, :fill "lightgrey", :on-click #object[Function]}] [:circle {:r 4.1, :cx 45, :cy 35, :fill "lightgrey", :on-click #object[Function]}] [:circle {:r 4.1, :cx 45, :cy 45, :fill "lightgrey", :on-click #object[Function]}] [:circle {:r 4.1, :cx 45, :cy 55, :fill "lightgrey", :on-click #object[Function]}] [:circle {:r 4.1, :cx 55, :cy 5, :fill "lightgrey", :on-click #object[Function]}] [:circle {:r 4.1, :cx 55, :cy 15, :fill "lightgrey", :on-click #object[Function]}] [:circle {:r 4.1, :cx 55, :cy 25, :fill "lightgrey", :on-click #object[Function]}] [:circle {:r 4.1, :cx 55, :cy 35, :fill "lightgrey", :on-click #object[Function]}] [:circle {:r 4.1, :cx 55, :cy 45, :fill "lightgrey", :on-click #object[Function]}] [:circle {:r 4.1, :cx 55, :cy 55, :fill "lightgrey", :on-click #object[Function]}] [:circle {:r 4.1, :cx 65, :cy 5, :fill "lightgrey", :on-click #object[Function]}] [:circle {:r 4.1, :cx 65, :cy 15, :fill "lightgrey", :on-click #object[Function]}] [:circle {:r 4.1, :cx 65, :cy 25, :fill "lightgrey", :on-click #object[Function]}] [:circle {:r 4.1, :cx 65, :cy 35, :fill "lightgrey", :on-click #object[Function]}] [:circle {:r 4.1, :cx 65, :cy 45, :fill "lightgrey", :on-click #object[Function]}] [:circle {:r 4.1, :cx 65, :cy 55, :fill "lightgrey", :on-click #object[Function]}])
+cljs꞉learn-re-com.views꞉> 
+nil
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:3:47
+ Use of undeclared Var learn-re-com.views/state-binary
+--------------------------------------------------------------------------------
+
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:4:53
+ Use of undeclared Var learn-re-com.views/state-binary
+--------------------------------------------------------------------------------
+
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:3:47
+ Use of undeclared Var learn-re-com.views/state-binary
+--------------------------------------------------------------------------------
+
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:4:53
+ Use of undeclared Var learn-re-com.views/state-binary
+--------------------------------------------------------------------------------
+
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:1:16
+ Use of undeclared Var learn-re-com.views/box#
+--------------------------------------------------------------------------------
+
+cljs꞉learn-re-com.views꞉> 
+nil
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:3:47
+ Use of undeclared Var learn-re-com.views/state-binary
+--------------------------------------------------------------------------------
+
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:4:53
+ Use of undeclared Var learn-re-com.views/state-binary
+--------------------------------------------------------------------------------
+
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:3:47
+ Use of undeclared Var learn-re-com.views/state-binary
+--------------------------------------------------------------------------------
+
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:4:53
+ Use of undeclared Var learn-re-com.views/state-binary
+--------------------------------------------------------------------------------
+
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:1:23
+ Use of undeclared Var learn-re-com.views/box#
+--------------------------------------------------------------------------------
+
+cljs꞉learn-re-com.views꞉> 
+12
+cljs꞉learn-re-com.views꞉> 
+nil
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:1:28
+ Use of undeclared Var learn-re-com.views/box#
+--------------------------------------------------------------------------------
+
+cljs꞉learn-re-com.views꞉> 
+nil
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:1:2
+ Use of undeclared Var learn-re-com.views/box#
+--------------------------------------------------------------------------------
+
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:2:9
+ Use of undeclared Var learn-re-com.views/state-binary
+--------------------------------------------------------------------------------
+
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:2:49
+ Use of undeclared Var learn-re-com.views/box#
+--------------------------------------------------------------------------------
+
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:3:9
+ Use of undeclared Var learn-re-com.views/to-dec
+--------------------------------------------------------------------------------
+
+cljs꞉learn-re-com.views꞉> 
+nil
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:3:47
+ Use of undeclared Var learn-re-com.views/state-binary
+--------------------------------------------------------------------------------
+
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:4:53
+ Use of undeclared Var learn-re-com.views/state-binary
+--------------------------------------------------------------------------------
+
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:3:47
+ Use of undeclared Var learn-re-com.views/state-binary
+--------------------------------------------------------------------------------
+
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:4:53
+ Use of undeclared Var learn-re-com.views/state-binary
+--------------------------------------------------------------------------------
+
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:1:23
+ Use of undeclared Var learn-re-com.views/box#
+--------------------------------------------------------------------------------
+
+cljs꞉learn-re-com.views꞉> 
+nil
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:3:47
+ Use of undeclared Var learn-re-com.views/state-binary
+--------------------------------------------------------------------------------
+
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:4:53
+ Use of undeclared Var learn-re-com.views/state-binary
+--------------------------------------------------------------------------------
+
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:3:47
+ Use of undeclared Var learn-re-com.views/state-binary
+--------------------------------------------------------------------------------
+
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:4:53
+ Use of undeclared Var learn-re-com.views/state-binary
+--------------------------------------------------------------------------------
+
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:1:16
+ Use of undeclared Var learn-re-com.views/box#
+--------------------------------------------------------------------------------
+
+cljs꞉learn-re-com.views꞉> 
+#'learn-re-com.views/tick-boxes
+cljs꞉learn-re-com.views꞉> 
+nil
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:3:47
+ Use of undeclared Var learn-re-com.views/state-binary
+--------------------------------------------------------------------------------
+
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:4:53
+ Use of undeclared Var learn-re-com.views/state-binary
+--------------------------------------------------------------------------------
+
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:3:47
+ Use of undeclared Var learn-re-com.views/state-binary
+--------------------------------------------------------------------------------
+
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:4:53
+ Use of undeclared Var learn-re-com.views/state-binary
+--------------------------------------------------------------------------------
+
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:1:16
+ Use of undeclared Var learn-re-com.views/box#
+--------------------------------------------------------------------------------
+
+cljs꞉learn-re-com.views꞉> 
+nil
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:1:18
+ Use of undeclared Var learn-re-com.views/x
+--------------------------------------------------------------------------------
+
+cljs꞉learn-re-com.views꞉> 
